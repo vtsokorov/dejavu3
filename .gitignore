@@ -1,0 +1,11 @@
+*.pyc
+*.pyo
+*.sqlite
+__pycache__
+.idea/
+.vscode/
+.settings/
+.project
+.pydevproject
+.python-version
+tmp/
