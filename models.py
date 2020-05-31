@@ -48,7 +48,6 @@ class Database:
 
         self.engine = create_engine(
             database_uri,
-            isolation_level='AUTOCOMMIT',
             echo=False
         )
 

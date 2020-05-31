@@ -16,7 +16,7 @@ if __name__ == "__main__":
         Database(
             user='root',
             password='root',
-            recreate_db=False
+            recreate_db=True
         )
     )
 
@@ -25,7 +25,7 @@ if __name__ == "__main__":
     )
 
     record = djv.search_record_by_file(
-        os.path.join(BASEDIR, 'test/short_dacha_ads.wav')
+        os.path.join(BASEDIR, 'test/short_dacha_ad.wav')
     )
 
     print('From file recognized: {}'.format(record))
